@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Web3 from 'web3';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import PasswordManagerContract from '../contracts/PasswordManager.json';
+import PasswordManagerContract from '../abis/contracts/PasswordManager.json';
 
 class EditPassword extends Component {
   state = {

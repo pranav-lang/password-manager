@@ -43,7 +43,7 @@
 
 import React, { Component } from 'react';
 import Web3 from 'web3';
-import PasswordManagerContract from '../contracts/PasswordManager.json';
+import PasswordManagerContract from '../abis/contracts/PasswordManager.json';
 
 class AddPassword extends Component {
   state = {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Web3 from 'web3';
-import PasswordManagerContract from './contracts/PasswordManager.json';
+import PasswordManagerContract from './abis/contracts/PasswordManager.json';
 import './App.css';
 import AddPassword from './components/AddPassword';
 import PasswordList from './components/PasswordList';
